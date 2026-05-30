@@ -9,13 +9,58 @@
 </head>
 
 <body>
-    <h1>Featured Projects</h1>
-    <ul>
-        <li>Live Currency Converter</li>
-        <p>I developed a script querying live APIs for real-time currency conversions and also implemented error
-            handling for poor network , invalid codes and API rate-limits res, improving reliability for end users.
-        </p>
-    </ul>
+    <header>
+        <nav>
+            <div class="logo">Jemima Agyeiwaa Obeng-Amoako</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="featured">
+        <h1>Featured Projects</h1>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>Live Currency Converter</h3>
+                    <p>I developed a script querying live APIs for real-time currency conversions and also implemented
+                        error handling for poor network, invalid codes, and API rate-limits, improving reliability for
+                        end users.</p>
+                    <span class="tech-tag">Python CLI / API</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>Number Guessing Game</h3>
+                    <p>I built an interactive logic game in Python that generates a random target number and guides
+                        users with dynamic feedback. Implemented robust data validation and exception handling to manage
+                        invalid inputs cleanly.</p>
+                    <span class="tech-tag">Python CLI / Logic</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>Bank Account Simulator</h3>
+                    <p>I developed an Object-Oriented bank account simulation script in Python to model real-world
+                        financial transactions. The application securely manages user states, calculates real-time
+                        balances, and tracks transaction histories across multiple operations like deposits,
+                        withdrawals, and balance inquiries while enforcing strict validation rules to prevent overdrafts
+                        and negative inputs.</p>
+                    <span class="tech-tag">Python / OOP Logic</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;2026 Jemima Agyeiwaa Obeng-Amoako</p>
+    </footer>
 </body>
 
 </html>
